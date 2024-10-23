@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-top">
+                <ul>
+                    <li class="icon-container"><img src="icons/home-icon.png" alt="Home"></li>
+                    <li class="icon-container"><img src="icons/search-icon.png" alt="Search"></li>
+                </ul>
+            </nav>
+            <nav class="sidebar-bottom">
+                <ul>
+                    <li class="icon-container"><img src="icons/library-icon.png" alt="Library"></li>
+                    <li class="icon-container"><img src="icons/favorites-icon.png" alt="Favorites"></li>
+                    <li class="icon-container"><img src="icons/image1.png" alt="Album 1"></li>
+                    <li class="icon-container"><img src="icons/image2.png" alt="Album 2"></li>
+                    <li class="icon-container"><img src="icons/image3.png" alt="Album 3"></li>
+                    <li class="icon-container"><img src="icons/image4.png" alt="Album 4"></li>
+                    <li class="icon-container"><img src="icons/image5.png" alt="Album 5"></li>
+                    <li class="icon-container"><img src="icons/image6.png" alt="Album 6"></li>
+                </ul>
+            </nav>
+            <div class="sidebar-footer-spacer"></div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="lyrics-container">
+                <div class="lyrics">
+                    <p>
+                    <span class="lyrics-white">
+                    Аёу, АК, вот вам два колпака<br>
+                    Чтоб наверняка, больше кофе меньше молока<br>
+                    Это Гуфака, меньше вальса, больше гопака<br>
+                    Я всё реже по музеям и чаще по кабакам<br>
+                    Наша страна широка, моя походка легка<br>
+                    ЕКБ, МСК, не путай берега<br>
+                    </span>
+                    <span class="lyrics-grey">
+                    Жди в твоём городе где-то после четверга<br>
+                    Куда не летят самолёты, точно едут поезда<br>
+                    А, ну да, по ходу так и надо<br>
+                    И последние два года я всё чаще бываю за МКАДом<br>
+                    Краткость — сестра таланта, ой да ладно<br>
+                    Нам абсолютно не в падлу вырывать листы из тетрадок<br>
+                    Нас это радует, вам это нравится тоже
+                    </span>
+                    </p>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Separate Album Info Block -->
+        <section class="album-info-block">
+            <div class="album-art">
+                <img src="images/Обложка.png" alt="Album Cover">
+                <div class="album-text">
+                    <h3 class="album-title">Cruel Summer</h3>
+                    <p class="album-artist">Taylor Swift</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Player -->
+        <footer class="music-player">
+            <div class="track-info">
+                <img src="icons/playing.png" alt="Current Track" class="track-cover">
+                <div class="track-details">
+                    <p class="track-name">Cruel Summer</p>
+                    <p class="artist-name">Taylor Swift</p>
+                </div>
+            </div>
+            <div class="control-section">
+                <div class="controls">
+                    <button class="control-button"><img src="icons/back.png" alt="Library"></button>
+                    <button class="play-pause-button"><img src="icons/stop.png" alt="Library"></button>
+                    <button class="control-button"><img src="icons/next.png" alt="Library"></button>
+                </div>
+                <div class="progress-bar">
+                    <span class="current-time">0:00</span>
+                    <input type="range" class="progress-slider" min="0" max="210" value="0">
+                    <span class="total-time">3:30</span>
+                </div>
+            </div>
+            <div class="additional-controls">
+                <button class="icon-button"><img src="icons/text.png" alt="Library"></button>
+                <button class="icon-button"><img src="icons/queue.png" alt="Library"></button>
+                <button class="icon-button"><img src="icons/sound.png" alt="Library"></button>
+                <input type="range" class="volume-slider" min="0" max="100" value="50">
+                <button class="icon-button"><img src="icons/full.png" alt="Library"></button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
